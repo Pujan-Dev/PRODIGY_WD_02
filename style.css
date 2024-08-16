@@ -1,0 +1,73 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 3em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#Time {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#Laps {
+    margin-top: 20px;
+    width: 300px;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#Laps ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Laps li {
+    font-size: 1.2em;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+#Laps li:last-child {
+    border-bottom: none;
+}
