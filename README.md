@@ -1,6 +1,8 @@
 # PRODIGY_WD_02
 Here's a small README file for your stopwatch project:
 
+DEMO :https://pujan-dev.github.io/PRODIGY_WD_02/
+
 ---
 
 # StopWatch
